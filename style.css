@@ -565,18 +565,20 @@ body {
   transition: margin-right 0.2s ease-in-out;
 }
 
-.menu-element {
-  animation: fadein 5s;
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    transform: translateY(55px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu-choix {
+  animation: apparition 3s ease-in-out;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .bloc-btn {
   display: flex;
   justify-content: center;
