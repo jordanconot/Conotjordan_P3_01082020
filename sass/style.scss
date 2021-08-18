@@ -550,6 +550,7 @@ height: 300px;}
 .menu-prix {
     font-weight: bolder;
     margin-right: 20px;
+    padding: 0 15px
 }
 
 .boite-validation {
@@ -582,30 +583,18 @@ height: 300px;}
 
 .menu-choix:hover > .boite-validation {
     opacity: 1;
+    transition: 0.7s ease-in;
+    
+    
 }
 
 
 
-    
-
-.menu-choix:hover  .pushtheprice {
-    animation-name: pushtheprice;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    
-    @keyframes pushtheprice {
-        0% {
-            transform:translateX(0px);
-            
-        }
-        100% {
-            transform: translateX(-50px);
-            
-        }
-        
-    }
+.menu-choix:hover .menu-prix {
+    margin-right: 50px;
+    transition: margin-right 0.2s ease-in-out;
 }
+
 
 
 
