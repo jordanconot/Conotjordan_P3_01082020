@@ -299,7 +299,7 @@ body {
 
 .heart-menu {
   position: absolute;
-  right: 35px;
+  right: 10px;
   top: 10px;
 }
 
@@ -463,12 +463,6 @@ body {
 .bloc-menu-header {
   position: relative;
   width: 100%;
-}
-
-.heart-menu {
-  position: absolute;
-  right: 35px;
-  top: 10px;
 }
 
 .bloc-menu-element {
