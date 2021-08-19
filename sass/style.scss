@@ -273,39 +273,64 @@ height: 300px;}
     font-size: 18px;
 }
 
+
 .heart-index {
+    fill:transparent;
+    stroke: black;
+    stroke-width: 20px;
     position: relative;
-    margin-right: 30px;
+    right: 20px;
+    
     
 }
-
-#heart {
-    font-size: 30px;
-    color: black;
-}
-
-.heart-index .hover-icon {
-    left: 0;
-    position: absolute;
-}
-
-.fixe-icon {
-    color: white;
-    background-color: white;
-
-}
-
-.hover-icon:hover:before {
-    
-    transition: color 1s ease-out;
-    font-weight: bold;
-    
-}
-
-.hover-icon:hover::before {
-    color:#9356dc;
+svg {
+    overflow: visible;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
+
+.heart-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    stroke: none;
+    z-index: -1;
+}
+
+.heart-full:hover {
+    fill: url(#color-heart);
+    animation-duration: 0.8s;
+    animation-name: heart-color;
+    stroke: none;
+    
+}
+
+@keyframes heart-color {
+    0% {
+        opacity: 0;
+    }
+    16%{
+        opacity: 0.15;
+    }
+    33%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.45;
+    }
+    66%{
+        opacity: 0.6;
+    }
+    83%{
+        opacity: 0.85;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 
 .heart-menu {
     position: absolute;
