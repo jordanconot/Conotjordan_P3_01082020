@@ -334,8 +334,11 @@ svg {
 
 .heart-menu {
     position: absolute;
-    right: 10px;
+    right: 40px;
     top: 10px;
+    fill: transparent;
+    stroke: black;
+    stroke-width: 20px;
 }
 
 
