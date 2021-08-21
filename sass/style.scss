@@ -699,9 +699,10 @@ svg {
     background-size: cover;
 }
 
-/*Responsive*/ 
+/*----------Responsive---------
+------------Desktop------------*/ 
 
-@media  screen and (min-width : 1200px) {
+@media  screen and (min-width : 1120px) {
     .element-fonctionnement{
         display: flex;
         justify-content: space-around;
@@ -731,5 +732,21 @@ svg {
 
     .bloc-nav{
         height: 250px;
+    }
+}
+
+@media  screen and (max-width : 1120px) {
+    .element-fonctionnement{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+@media  screen and (max-width : 830px) {
+    .element-fonctionnement{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
 }
