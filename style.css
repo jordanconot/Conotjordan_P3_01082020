@@ -656,4 +656,38 @@ svg {
   background-size: cover;
 }
 
+/*Responsive*/
+@media screen and (min-width: 1200px) {
+  .element-fonctionnement {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .titre-nav {
+    max-width: 500px;
+  }
+
+  .bloc-img-restaurant {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .elements-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .titre-restaurant {
+    padding-top: 10px;
+    margin-top: 50px;
+  }
+
+  .bloc-nav {
+    height: 250px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
