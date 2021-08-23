@@ -503,7 +503,7 @@ svg {
 
 .bloc-menu {
     width: 100%;
-    margin-top: -100px;
+    margin-top: -50px;
     background-color: #f6f6f6;
     border-radius: 40px 40px 0 0;
 }
@@ -527,9 +527,21 @@ svg {
     margin-left: 5%;
 }
 
+.bloc-menu-titre {
+    width: 100%;
+    height: 50px;
+}
+
 .uppercase {
     text-transform: uppercase;
     font-weight: 300;
+    margin: 0;
+}
+
+.trait-vert {
+    background: #99e2d0;
+    width: 50px;
+    height: 3px;
 }
 
 .menu-choix {
