@@ -334,7 +334,7 @@ svg {
 
 .heart-menu {
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 10px;
     fill: transparent;
     stroke: black;
@@ -687,7 +687,7 @@ svg {
     background-image: url('images/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
     width: 100%;
     height: 100%;
-    background-position: center;
+    background-position: 10% 60%;
     background-size: cover;
 }
 
@@ -697,7 +697,7 @@ svg {
     background-image: url('images/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
     width: 100%;
     height: 100%;
-    background-position: center;
+    background-position: 30% 80%;
     background-size: cover;
 }
 
@@ -711,8 +711,8 @@ svg {
     background-size: cover;
 }
 
-/*----------Responsive---------
-------------Desktop------------*/ 
+/*----------Responsive---------*/
+
 
 @media  screen and (min-width : 1120px) {
     .element-fonctionnement{
@@ -744,6 +744,27 @@ svg {
 
     .bloc-nav{
         height: 250px;
+    }
+
+    .img-presentation {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .bloc-menu-element {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 95%;
+    }
+}
+
+@media  screen and (max-width : 1300px) {
+    .bloc-menu-element {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
     }
 }
 
