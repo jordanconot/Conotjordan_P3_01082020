@@ -509,7 +509,7 @@ svg {
     justify-content: center;
 }
 
-.menu-element {
+.menu-element-1, .menu-element-2, .menu-element-3 {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -637,14 +637,17 @@ svg {
 
 
 
-.menu-choix {
-    animation: apparition 3s ease-in-out;
-    
-
+.menu-element-1 {
+    animation: apparition 2s ease-in-out;
 }
 
+.menu-element-2 {
+    animation: apparition 3s ease-in-out;
+}
 
-
+.menu-element-3 {
+    animation: apparition 4s ease-in-out;
+}
 
 .bloc-btn {
     display: flex;
