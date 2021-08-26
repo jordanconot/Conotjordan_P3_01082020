@@ -432,19 +432,14 @@ svg {
     margin: auto;
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    animation-delay: 1s;
     animation: spin 1.5s linear;
-    animation-fill-mode: forwards;
-    z-index: 10000;
     
     @keyframes spin {
         0% {
             transform: rotate(0deg);
-            opacity: 1;
         }
         100% {
             transform: rotate(360deg);
-            opacity: 0;
         }
 
     }
@@ -461,23 +456,17 @@ svg {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1;
     background: linear-gradient(#9356dc, #ff79da, #99e2d0);
     
 }
 @keyframes backpage {
     to {
     visibility: hidden;
-    display: none;
     }
 }
 
-@keyframes backpage {
-    to {
-    visibility: hidden;
-    display: none;
-    }
-}
+
 
 /* La palette du gout */
 
