@@ -116,8 +116,9 @@ body {
 }
 
 .btn-explorer:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
+  box-shadow: 1px 4px 25px 1px rgba(2, 2, 2, 0.77);
 }
 
 /*Fonctionnement*/
@@ -638,8 +639,9 @@ svg {
 }
 
 .btn-menu:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
+  box-shadow: 1px 4px 25px 1px rgba(2, 2, 2, 0.77);
 }
 
 .header-fleche {

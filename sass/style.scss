@@ -117,8 +117,9 @@ height: 300px;}
 }
 
 .btn-explorer:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     cursor: pointer;
+    box-shadow: 1px 4px 25px 1px rgb(2 2 2 / 77%);
 }
 /*Fonctionnement*/
 
@@ -674,8 +675,9 @@ svg {
 }
 
 .btn-menu:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     cursor: pointer;
+    box-shadow: 1px 4px 25px 1px rgb(2 2 2 / 77%);
 }
 
 .header-fleche {
