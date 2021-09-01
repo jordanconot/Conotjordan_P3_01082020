@@ -533,6 +533,7 @@ svg {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  overflow: hidden;
 }
 
 .menu-choix-prix {
@@ -559,37 +560,30 @@ svg {
 }
 
 .boite-validation {
-  opacity: 0;
-  position: absolute;
   background: #99e2d0;
   border-radius: 0 15px 15px 0;
-  padding: 0 15px;
   height: 80px;
-  right: 0;
-  font-size: 25px;
-  color: white;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  justify-content: center;
+  width: 0;
+  transition: all 500ms ease-in-out;
 }
 
 .rules {
-  transition: all 0.5s linear;
+  transition: all 500ms ease-in-out;
+  color: transparent;
+  font-size: 25px;
 }
 
 .menu-choix:hover .rules {
   transform: rotate(360deg);
-  opacity: 1;
+  color: white;
+  transition: all 500ms ease-in-out;
 }
 
 .menu-choix:hover > .boite-validation {
-  opacity: 1;
-  transition: 0.7s ease-in;
-}
-
-.menu-choix:hover .menu-prix {
-  margin-right: 50px;
-  transition: margin-right 0.2s ease-in-out;
+  width: 80px;
 }
 
 @keyframes apparition {
